@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+#header{
+    color: white;
+    
+}
+.container{
+   width: 60%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   margin: auto;
+   background-color: black;
+   
+
+}
+.container::before{
+    font-family: Permanent Marker, cursive;
+    content: "😈 Death Calaulator";
+    font-size: 40px;
+    color: rgb(204, 13, 13);
+    font-weight: bold;
+  
+}
